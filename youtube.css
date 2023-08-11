@@ -1,0 +1,34 @@
+p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.imageOne {
+    width: 100%;
+}
+
+.tech {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.right {
+    width: 100%;
+    margin-top: 0px;
+    border-style: solid;
+    border-color: black;
+}
+
+.talkingtech {
+    width: 100%;
+    margin-top: 0px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: black;
+}
+
+.talkingTitle {
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 14px;
+}
