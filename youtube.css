@@ -3,32 +3,44 @@ p {
     margin-bottom: 0px;
 }
 
-.imageOne {
+.imageOne, .imageTwo {
     width: 100%;
 }
 
-.tech {
+
+.tech, .MarkPic {
     width: 100%;
     margin-bottom: 10px;
 }
 
+
 .right {
     width: 100%;
     margin-top: 0px;
-    border-style: solid;
-    border-color: black;
+
 }
 
-.talkingtech {
+.talkingtech , .MarkWeb {
     width: 100%;
     margin-top: 0px;
     border-radius: 50px;
-    border-style: solid;
-    border-color: black;
+
 }
 
 .talkingTitle {
     font-family: Roboto;
     font-weight: 500;
     font-size: 14px;
+    margin-bottom: 10px;
+}
+
+.marqueeName {
+    color: rgb(96, 96, 96);
+    font-size: 13px;
+    margin-bottom: 2px;
+}
+
+.threeViews {
+    color: rgb(96, 96, 96);
+    font-size: 13px;
 }
