@@ -1,7 +1,11 @@
 .hamburger,
 .youTube, 
 .searching,
-.voice{
+.voice,
+.apps,
+.notification,
+.MarksLogo,
+.upload{
     height: 25px;
 }
 

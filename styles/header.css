@@ -2,6 +2,33 @@
     display: flex;
     justify-content: space-between;
     margin-bottom: 50px;
+    align-items: center;
 }
 
-.o
+.MiddleHead {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    border-color: black;
+    border-style: solid;
+}
+
+.SearchInput {
+    margin-right: 65px;
+    flex: 1;
+    max-width: 350px;
+
+}
+
+.LeftIcons{
+    width: 150px;
+    display: flex;
+    flex-shrink: 0;
+}
+
+.RightIcons{
+    display: flex;
+    flex-shrink: 0;
+    width: 150px;
+    text-align: right;
+}
