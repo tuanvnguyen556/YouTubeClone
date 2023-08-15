@@ -7,13 +7,18 @@
     <link rel="stylesheet" href="styles/general.css">
     <link rel="stylesheet" href="styles/body.css">
     <link rel="stylesheet" href="styles/icons.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
 
 </head>
 
-<body>
+<body style="
+height: 3000px;
+padding-top: 80px;
+padding-left: 100px;
+">
     <div class="head">
         <div class="LeftIcons">
             <img src="icons/hamburger-menu.svg" class="hamburger">
@@ -21,10 +26,10 @@
         </div>
         <div class="MiddleHead">
             <input placeholder="Search" class="SearchInput">
-            <img src="icons/search.svg" class="searching">
+            <img src="icons/search.svg" style="border-color: rgb(204, 204, 204);" class="searching">
             <img src="icons/voice-search-icon.svg" class="voice">
         </div>
-        
+
         <div class="RightIcons">
             <img src="icons/upload.svg" class="upload">
             <img src="icons/youtube-apps.svg" class="apps">
@@ -32,13 +37,16 @@
             <img src="images/MarkLogo.jpeg" class="MarksLogo">
         </div>
     </div>
+    <div class="sidebar">
+        sidebar
+    </div>
     <div style="
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr; 
     column-gap: 10px; 
-    row-gap: 10px; 
+    row-gap: 10px;
     ">
-        <div class=" imageOne">
+        <div class="imageOne">
             <img class="tech" src="images/talkingtech.webp">
             <div style="
             display: grid;
