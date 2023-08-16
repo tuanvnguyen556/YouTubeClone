@@ -4,6 +4,24 @@
 }
 
 
+.Mark-Time,
+.Talking-Time,
+.Sniper-Time,
+.V-Time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    bottom: 25px;
+    right: 8px;
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-right: 5px;
+    padding-left: 5px;
+
+}
+
 .tech,
 .MarkPic {
     width: 100%;
