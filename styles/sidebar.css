@@ -7,5 +7,32 @@
     border-right-style: solid;
     border-right-width: 1px;
     border-right-color: rgb(230, 230, 230);
-    width: 80px;
+    width: 75px;
+    z-index: 100;
+}
+
+.side-cons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 76px;
+    font-size: 10px;
+    font-family: Roboto, Arial;
+    font-weight: 300;
+    margin-bottom: 1px;
+    flex-direction: column;
+    cursor: pointer;
+
+}
+
+.side-cons:hover{
+    background-color: rgb(230, 230, 230);
+}
+
+.side-image{
+    width: 23px;
+}
+
+.side-cons div{
+    margin-top: 4px;
 }

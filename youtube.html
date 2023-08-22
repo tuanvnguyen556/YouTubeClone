@@ -10,35 +10,85 @@
     <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles/profile.css">
 
 </head>
 
 <body style="
 height: 3000px;
 padding-top: 80px;
-padding-left: 100px;
+padding-left: 90px;
+background-color: rgb(250, 250, 250);
 ">
     <div class="head">
         <div class="LeftIcons">
             <img src="icons/hamburger-menu.svg" class="hamburger">
-            <img src="icons/youtube-logo.svg" class="youTube">
+            <a href="https://www.youtube.com/"><img src="icons/youtube-logo.svg" class="youTube"></a>
         </div>
         <div class="MiddleHead">
             <input placeholder="Search" class="SearchInput">
-            <img src="icons/search.svg" style="border-color: rgb(204, 204, 204);" class="searching">
-            <img src="icons/voice-search-icon.svg" class="voice">
+            <img src="icons/search.svg" class="searches">
+            <div class="tool">
+                <img src="icons/voice-search-icon.svg" class="voice">
+                <div>Search with your voice</div>
+            </div>
+
         </div>
 
         <div class="RightIcons">
-            <img src="icons/upload.svg" class="upload">
-            <img src="icons/youtube-apps.svg" class="apps">
-            <img src="icons/notifications.svg" class="notification">
+            <div class="tool">
+                <img src="icons/upload.svg" class="upload">
+                <div style="margin-left: 25px">Create</div>
+
+            </div>
+            <div class="tool">
+                <img src="icons/youtube-apps.svg" class="apps">
+                <div style="margin-left: 10px;">Apps</div>
+            </div>
+
+            <div style="position: relative;">
+                <div class="tool">
+                    <img src="icons/notifications.svg" class="notification">
+                    <div style="margin-left: 15px;">Notifications</div>
+                </div>
+
+                <div class="notify">
+                    3
+                </div>
+            </div>
+
             <img src="images/MarkLogo.jpeg" class="MarksLogo">
+
+
         </div>
     </div>
     <div class="sidebar">
-        sidebar
+        <div class="side-cons">
+            <img class="side-image" src="icons/home.svg">
+            <div>Home</div>
+        </div>
+        <div class="side-cons">
+            <img class="side-image" src="icons/explore.svg">
+            <div>Explore</div>
+        </div>
+        <div class="side-cons">
+            <img class="side-image" src="icons/subscriptions.svg">
+            <div>Subscriptions</div>
+        </div>
+        <div class="side-cons">
+            <img class="side-image" src="icons/originals.svg">
+            <div>Originals</div>
+        </div>
+        <div class="side-cons">
+            <img class="side-image" src="icons/youtube-music.svg">
+            <div>YouTube Music</div>
+        </div>
+        <div class="side-cons">
+            <img class="side-image" src="icons/library.svg">
+            <div>Library</div>
+        </div>
     </div>
     <div style="
     display: grid; 
@@ -48,7 +98,9 @@ padding-left: 100px;
     ">
         <div class="imageOne">
             <div style="position: relative;">
-                <img class="tech" src="images/talkingtech.webp">
+                <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY">
+                    <img class="tech" src="images/talkingtech.webp">
+                </a>
                 <div class="Talking-Time">
                     14:20
                 </div>
@@ -61,12 +113,37 @@ padding-left: 100px;
             column-gap: 15px;
             position: relative;
             ">
-              
-                <img class="talkingtech" src="images/MarquesLogo.jpeg">
+                <div>
+                    <a href="https://www.youtube.com/@mkbhd">
+                        <div class="profile1">
+                            <img class="talkingtech" src="images/MarquesLogo.jpeg">
+                            <div class="profiletool1">
+                                <div style="
+                                width: 55px;
+                         
+                                ">
+                                    <img class="smallMark" src="images/MarquesLogo.jpeg">
+                                </div>
+                                <div style="
+                                flex: 1;
+                                margin-left: 60px;
+                                height: 40px;
+                                ">
+                                    <p>Marques Brownlee</p>
+                                    <p>15M subscribers</p>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </a>
+                </div>
                 <div class="PichaiBlock">
-                    <p class="talkingTitle">
-                        Talking Tech and AI with Google CEO Sundar Pichai!
-                    </p>
+                    <a href="https://www.youtube.com/watch?v=n2RNcPRtAiY" style="text-decoration: none; color: black;">
+                        <p class="talkingTitle">
+                            Talking Tech and AI with Google CEO Sundar Pichai!
+                        </p>
+                    </a>
+
                     <p class="marqueeName">
                         Marquee Brownlee
                     </p>
@@ -83,7 +160,7 @@ padding-left: 100px;
                     8:22
                 </div>
             </div>
-            
+
             <div style="
             display: grid;
             grid-template-columns: 35px 1fr;
@@ -138,7 +215,7 @@ padding-left: 100px;
                     22:09
                 </div>
             </div>
-            
+
             <div style="
             display: grid;
             grid-template-columns: 35px 1fr;
