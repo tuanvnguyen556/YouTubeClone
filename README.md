@@ -1,5 +1,5 @@
 # YouTubeClone
-Tried to make the interface of YouTube using HTML and CSS 
+(Tried to make the interface of YouTube using HTML and CSS)
 
 
 -Used display: grid, flex
